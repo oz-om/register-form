@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Register Form</title>
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="main">
+    
+    <h4 class="title">sing up</h4>
+    <form action="" method="get" accept-charset="utf-8">
+      <label for="Fname">first name</label>
+      <div class="input">
+        <span class="icon-drive_file_rename_outline">
+        </span>
+        <input type="text" id="Fname" placeholder="firstName">
+      </div>
+ 
+      <label for="Lname">last name</label>
+      <div class="input">
+        <span class="icon-drive_file_rename_outline">
+        </span>
+        <input type="text" id="Lname" placeholder="lastName">
+      </div>
+  
+      <label for="usern">username</label>
+      <div class="input">
+        <span class="icon-user-circle-o"></span>
+        <input type="text" id="usern" placeholder="username" />
+        <p>numbers required</p>
+        <p>Uppercase A-Z required</p>
+        <p>must be longer than 8 character</p>
+      </div>
+ 
+      <label for="pass">password</label>
+      <div class="input">
+        <span class="icon-locked"></span>
+        <input type="password" id="pass" placeholder="password">
+        <p>Uppercase A-Z required</p>
+        <p>special character (!@#$%^&*) required</p>
+        <p>must be longer than 8 character</p>
+      </div>
+ 
+      <label for="email">email</label>
+      <div class="input">
+        <span class="icon-email"></span>
+        <input type="email" placeholder="email@ex.me" id="email" required>
+      </div>
+ 
+      <div class="submit">
+        <input type="submit" id="send" value="submit" />
+      </div>
+    </form>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
